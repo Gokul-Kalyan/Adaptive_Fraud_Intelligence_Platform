@@ -1,0 +1,9 @@
+venv/
+env/
+.venv/
+catboost_info/
+data/raw/
+*.csv
+__pycache__/
+*.pyc
+.env

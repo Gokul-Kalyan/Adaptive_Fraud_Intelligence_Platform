@@ -1,0 +1,22 @@
+artifact_path: file:///C:/Users/Gokul/OneDrive/Desktop/fraud-platform/mlartifacts/1/models/m-dfa0dada05704b4083a9e3551f54472d/artifacts
+flavors:
+  catboost:
+    catboost_version: 1.2.10
+    code: null
+    data: model.cb
+    model_type: CatBoostClassifier
+    save_format: cbm
+  python_function:
+    data: model.cb
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.catboost
+    python_version: 3.11.1
+mlflow_version: 3.14.0
+model_id: m-dfa0dada05704b4083a9e3551f54472d
+model_size_bytes: 230952
+model_uuid: m-dfa0dada05704b4083a9e3551f54472d
+prompts: null
+run_id: 1493cc1c84c44a59b846adc5a6276d6c
+utc_time_created: '2026-06-25 18:44:37.819999'

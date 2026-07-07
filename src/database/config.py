@@ -1,9 +1,11 @@
-DB_NAME = "fraud_platform"
+import os
 
-DB_USER = "postgres"
+DB_NAME = os.getenv("DB_NAME", "fraud_platform")
 
-DB_PASSWORD = "google"
+DB_USER = os.getenv("DB_USER", "postgres")
 
-DB_HOST = "localhost"
+DB_PASSWORD = os.getenv("DB_PASSWORD", "google")
 
-DB_PORT = 5432
+DB_HOST = os.getenv("DB_HOST", "localhost")
+
+DB_PORT = int(os.getenv("DB_PORT", 5432))

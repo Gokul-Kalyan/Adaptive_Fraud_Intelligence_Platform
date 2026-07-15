@@ -5,14 +5,14 @@ from src.api.schemas import TransactionRequest
 from src.api.predict import prepare_request_features
 from src.api.logger import log_prediction
 
-app = FastAPI()
+
 
 app = FastAPI(
     title="Fraud Detection Platform",
     description="End-to-End Machine Learning Platform for Real-Time Fraud Detection",
     version="1.0.0"
 )
-
+model = load_model()
 
 @app.get("/")
 def home():

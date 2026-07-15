@@ -7,7 +7,11 @@ from src.api.logger import log_prediction
 
 app = FastAPI()
 
-model = load_model()
+app = FastAPI(
+    title="Fraud Detection Platform",
+    description="End-to-End Machine Learning Platform for Real-Time Fraud Detection",
+    version="1.0.0"
+)
 
 
 @app.get("/")

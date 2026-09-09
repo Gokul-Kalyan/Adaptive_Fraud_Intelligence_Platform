@@ -35,7 +35,7 @@ This project focuses on building a practical fraud detection system that can:
 
 **CatBoost Classifier**
 
-CatBoost was selected as the primary model because of its strong performance on tabular data and its ability to capture nonlinear relationships with relatively limited preprocessing.
+CatBoost was selected as the primary model because of its strong performance on tabular data, well adaptable for handling categorical variables and its ability to capture nonlinear relationships with relatively limited preprocessing. 
 
 ### Evaluation
 
